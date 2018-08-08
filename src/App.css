@@ -27,15 +27,55 @@
   to { transform: rotate(360deg); }
 }
 
+
 .holder {
   display: flex;
+  background: #bbb;
+}
+.selected {
+  color: #13f;
+}
+.unselected {
+  color: #fff;
+}
+.tabs-horizontal {
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.holder.vertical {
   flex-direction: row;
 }
-.tabs {
+
+.tabs.vertical {
   margin-left: 10px;
-  display: flex;
   flex-direction: column;
 }
+
+.body.vertical {
+  margin-left: 100px;
+}
+
+.holder.horizontal {
+  flex-direction: column;
+}
+
+.tabs.horizontal {
+  flex-direction: row;
+}
+
+.tabs.horizontal h1 {
+  margin-right: 100px;
+}
+
 .body {
   margin-left: 100px;
+}
+
+.selected {
+  color: red;
+}
+
+.unselected {
+  color: blue;
 }
