@@ -27,6 +27,15 @@
   to { transform: rotate(360deg); }
 }
 
+.tabs {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.body {
+  margin-left: 100px;
+}
+
 
 .holder {
   display: flex;
@@ -38,44 +47,26 @@
 .unselected {
   color: #fff;
 }
-.tabs-horizontal {
+.tabs.horizontal {
   flex-direction: row;
-  margin-left: auto;
+  margin-left: 270px;
 }
-
 .holder.vertical {
   flex-direction: row;
 }
-
 .tabs.vertical {
   margin-left: 10px;
   flex-direction: column;
 }
-
 .body.vertical {
   margin-left: 100px;
 }
-
 .holder.horizontal {
   flex-direction: column;
 }
-
 .tabs.horizontal {
   flex-direction: row;
 }
-
 .tabs.horizontal h1 {
   margin-right: 100px;
-}
-
-.body {
-  margin-left: 100px;
-}
-
-.selected {
-  color: red;
-}
-
-.unselected {
-  color: blue;
 }
